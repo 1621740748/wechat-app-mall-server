@@ -47,7 +47,7 @@ const routes = require('./routes/index')
 app.use('/api', routes)
 
 //配置服务端口
-const server = app.listen(8082, function () {
+const server = app.listen(8044, function () {
     let host = server.address().address;
     let port = server.address().port;
     console.log(host, port);
